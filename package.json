@@ -1,0 +1,27 @@
+{
+  "name": "next-auth-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^6.0.12",
+    "next": "12.0.1",
+    "next-auth": "^3.29.0",
+    "nodemailer": "^6.7.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-toastify": "^8.0.3"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.1"
+  }
+}
